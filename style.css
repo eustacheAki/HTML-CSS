@@ -1,0 +1,139 @@
+@import url(https://fonts.google.com/specimen/Raleway?query=raleway);
+@import url(https://fonts.google.com/specimen/Metal+Mania?query=meta#standard-styles);
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: gray;
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: right;
+    font-size: medium;
+    font-weight: lighter;
+    border-bottom: solid rgb(gray);
+}
+.main-nav li{
+    padding: 0 2%;
+}
+.nav a:hover{
+    background-color: gray;
+}
+.main-header{
+    background-image: url(Image/headerBa.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+.band-name{
+    text-align: left;
+    margin: 0;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: whitesmoke;
+}
+.band-name-large{
+    font-size: 4em;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+.about.band.image{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: rgb(8, 17, 36);
+    color: white;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    text-align: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav{
+    padding: 0 .5em;
+}
+.btn{
+    text-align: right;
+    vertical-align: middle;
+    padding: .60em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid rgb(99, 117, 196);
+    background-color: rgb(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: silver;
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: rgb(212, 80, 80);
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    height: 100;
+    width: 100;
+} 
+.tour-row
+{
+ border-bottom: 1px solid black; 
+ padding-bottom: 1em; 
+ margin-bottom: 1em;
+}
+.tour-row:last-child{
+border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+
+}
+.tour-date{
+    color: black;
+    font-weight: bolder;
+    width: 11%;
+}
