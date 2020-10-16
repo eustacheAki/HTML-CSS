@@ -1,97 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <title>INK/About</title>
       <meta charset="utf-8">
-      <title>INK/Store</title>
-
+      <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-      <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="about.html">About</a></li>
-            
-          </ul>
-          </nav>
-          <hr>
-          <h1>THE INKOTANTI</h1>
+      <header class="main-header">
+        <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+        </nav>
+        <h1 class="band-name band-name-large">THE INKOTANTI</h1>
       </header>
-          <h2>Music</h2>
-          <div>
-            <div>
-              <strong>Album1</strong>
-              <img src="Image/al1.jpg" width="100" height="100">
-              <div>
-                <span>$15.5</span>
-                <button role="button">Add to cart</button>
-              </div>
-              <strong>Album2</strong>
-              <img src="Image/al2.jpg" width="100" height="100">
-              <div>
-                <span>$17.5</span>
-                <button role="button">Add to cart</button>
+      <section class="container content-section">
+          <h2 class="section-header">Music</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+              <span class="shop-item-title">Album1</span>
+              <img class="shop-item-image" src="Image/al1.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">$15.5</span>
+                <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
               </div>
             </div>
-          </div>
-          <div>
-            <div>
-              <strong>Album3</strong>
-              <img src="Image/al3.jpg" width="100" height="100">
-              <div>
-                <span>$20.5</span>
-                <button role="button">Add to cart</button>
+                <div class="shop-item">
+              <span class="shop-item-title">Album2</span>
+              <img class="shop-item-image" src="Image/al2.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">$17.5</span>
+                <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
               </div>
-              <strong>Album4</strong>
-              <img src="Image/al4.jpg" width="100" height="100">
-              <div>
-                <span>$25.5</span>
-                <button role="button">Add to cart</button>
+            </div>
+            <div class="shop-item">
+              <span class="shop-item-title">Album3</span>
+              <img class="shop-item-image" src="Image/al3.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">$20.5</span>
+                <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+              </div>
+            </div>
+             <div class="shop-item">
+              <span class="shop-item-title">Album4</span>
+              <img class="shop-item-image" src="Image/al4.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">$25.5</span>
+                <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
               </div>
             </div>
           </div>
         </section>
-        <section>
-          <h2>Merch</h2>
-        </section>
-        <div>
-          <div>
-            <strong>
-              T-shirt
-            </strong>
-            <img src="Image/t-shirt.jpg" width="100" height="100">
+        <section class="container content-section">
+        <h2 class="section-header">Merch</h2>
+        <div class="shop-items">
+          <div class="shop-item">
+            <span class="shop-item-title">T-shirt</span>
+            <img class="shop-item-image" src="Image/t-shirt.jpg">
             <div>
-              <span>$15.5</span>
-              <button role="button">Add to cart</button>
+              <span class="shop-item-price">$15.5</span>
+              <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
             </div>
 
-        <section>
-          <h2>Cart</h2>
-          <div>
-          <strong>ITEM</strong>
-          &lt;&gt;
-          <strong>PRICE</strong> 
-          &lt;&gt;
-          <strong>QUALITY</strong> 
-          <hr>
+        <section class="container content-section">
+          <h2 class="section-header">Cart</h2>
+          <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span> 
+          <span class="cart-quantity cart-header cart-column">QUALITY</span> 
         </div>
         <div>
+          <div>
           <img src="Image/suit.jpg" width="70" height="70">
-          <spam>Suit</spam>
-          &lt;&gt;
           <spam>$50</spam>
-          &lt;&gt;
           <input type="number" value="1">
           <button role="button">Remove</button>
         </div>
-        
+      </div>
         <div>
           <img src="Image/gitp.jpg" width="70" height="70">
           <spam>Album</spam>
-          &lt;&gt;
           <spam>$10</spam>
-          &lt;&gt;
           <input type="number" value="2">
           <button role="button">Remove</button>
           <hr>
@@ -104,22 +95,24 @@
         <button rule="button">Purchase</button>
       </div>
         </section>
-      <footer>
-        <h3>#Inkotanyi</h3>
-        <ul>
+        <footer class="main-footer">
+          <div class="container main-footer-container">
+          <h3 class="band-name">#INKOTANYI</h3>
+          <ul class="nav footer-nav">
           <li>
-            <a href="https://youtube.com" target="_blank"><img src="Image/you.png" width="25" height="25"></a> 
+            <a href="https://youtube.com"><img src="Image/you.png" width="25" height="25"></a> 
           </li>
           <li>
-            <a href="https://facebook.com" target="_blank"><img src="Image/fb.png" width="25" height="25"></a> 
+            <a href="https://facebook.com"><img src="Image/fb.png" width="25" height="25"></a> 
           </li>
           <li>
-            <a href="https://instagram.com" target="_blank"><img src="Image/inst.jpg" width="25" height="25"></a> 
+            <a href="https://instagram.com"><img src="Image/inst.jpg" width="25" height="25"></a> 
           </li>
           <li>
-            <a href="https://sportify.com" target="_blank"><img src="Image/spot.jpg" width="25" height="25"></a> 
+            <a href="https://sportify.com"><img src="Image/spot.jpg" width="25" height="25"></a> 
           </li>
         </ul>
-      </footer>
+        </div>
+        </footer>
     </body>
     </html>
